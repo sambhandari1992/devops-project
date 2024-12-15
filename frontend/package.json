@@ -1,14 +1,25 @@
 {
-  "name": "frontend",
-  "version": "0.0.0",
+  "name": "devops-project",
+  "version": "1.0.0",
+  "description": "My DevOps practice project",
+  "main": "index.js",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "dev": "ng serve"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhandari1992/devops-project.git"
+  },
+  "author": "sam bhandari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambhandari1992/devops-project/issues"
+  },
+  "homepage": "https://github.com/sambhandari1992/devops-project#readme",
   "dependencies": {
     "@angular/animations": "^18.1.0",
     "@angular/common": "^18.1.0",
@@ -33,6 +44,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.5.2"
+    "typescript": "~5.5.2",
+    "eslint": "^8.36.0"
   }
 }
